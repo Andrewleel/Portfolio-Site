@@ -4,7 +4,7 @@ const Project = ( props ) => {
   return (
     <div>
       <h2>{ props.name }</h2>
-      <h3>{ props.tools }</h3>
+      <h3><b>Tools:</b> { props.tools }</h3>
       <ul>
         {
           props.description.map((each) => {
