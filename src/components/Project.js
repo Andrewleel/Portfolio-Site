@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = ( props ) => {
   return (
-    <div>
+    <div className= { props.className }>
       <h2>{ props.name }</h2>
       <h3><b>Tools:</b> { props.tools }</h3>
       <ul>

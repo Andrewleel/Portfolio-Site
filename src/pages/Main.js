@@ -43,7 +43,7 @@ const Main = () => {
         <Stack gap={3}>
           {projects.map((each) => {
             return (
-              <Project
+              <Project className="project"
                 name={each.name}
                 tools={each.tools}
                 description={each.description}
